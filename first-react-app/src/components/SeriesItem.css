@@ -1,0 +1,103 @@
+span {
+    display: block;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: black
+}
+.link:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.series-item{
+    display: flex;
+    align-items: flex-start;
+}
+
+/* img {
+    width: 250px;
+    margin-right: 15px;
+    transition-timing-function: ease-in-out;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 9px 7px rgba(0, 0, 0, 0.3);
+} */
+
+h3 {
+    margin: 0;
+}
+
+.inline-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    column-gap: 10px;
+}
+
+/* .inline-list li::after {
+    content: ',';
+}
+.inline-list li:last-child::after {
+    content: none;
+} */
+.inline-list li:not(:last-child)::after {
+    content: ',';
+}
+.block-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* h2.h2 {
+    color: rgb(223, 206, 200) !important;
+}
+
+h2 {
+    color: coral !important;
+}
+
+#h2-id#h2-id {
+    color: rgb(37, 192, 192);
+}
+
+h2#h2-id {
+    color: blueviolet;
+}
+
+#h2-id {
+    color: brown;
+}
+
+html body .container .page-content .series-list .card .series-item h2.h2  {
+    color: yellow
+}
+
+.card .series-item h2.h2  {
+    color: rgb(43, 43, 200)
+}
+
+.series-item h2.h2  {
+    color: lavender
+}
+
+h2.h2 {
+    color: cadetblue
+}
+
+.h2 {
+    color: black;
+} */
+
+h2 {
+    margin-top: 0;
+}

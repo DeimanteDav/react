@@ -1,0 +1,6 @@
+.series-list {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 50% auto;
+    column-gap: 20px;
+}

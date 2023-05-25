@@ -1,0 +1,95 @@
+.boxes-div {
+    background: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%), #FFFFFF;
+    border-radius: 8px;
+    padding: 80px 50px 70px;
+}
+.boxes-div:nth-of-type(2n) {
+    background: #647B64;
+}
+
+.boxes-div h4 {
+    margin-top: 30px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 24px;
+    font-variant: small-caps;
+    color: #333333;
+}
+.boxes-div:nth-of-type(2n) h4,
+.boxes-div:nth-of-type(2n) p {
+    color: #FFFFFF;
+}
+
+.boxes-div p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+}
+
+.boxes-div:first-of-type {
+    position: relative;
+}
+
+.boxes-div:first-of-type::before {
+    content: '';
+    background-image: url('./dots.png');
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    z-index: -1;
+    bottom: -10%;
+    left: -10%;
+}
+
+@media screen and (max-width: 799px) {
+    .boxes-div:last-child {
+        display: none;
+    }
+    .boxes-div {
+        padding: 70px 40px 50px;
+    }
+
+    .boxes svg:not(.dots-svg){
+        width: 40px;
+        height: auto;
+    }
+ 
+    .boxes-div h4 {
+        font-size: 18px;
+        margin-top: 23px;
+    }
+    .boxes-div p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .boxes-div {
+        padding: 35px 30px 30px;
+    }
+
+    .boxes-div svg {
+        width: 20px;
+        height: auto;
+    }
+    .boxes-div h4 {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .boxes-div p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 299px) {
+    .boxes-div {
+        padding: 30px 20px 25px;
+    }
+    .boxes-div h4 {
+        font-size: 12px;
+    }
+}

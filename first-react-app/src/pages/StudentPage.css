@@ -1,0 +1,40 @@
+#student-form div {
+    margin: 5px 0;
+}
+
+#fieldset-laguages div {
+    margin: 0;
+}
+
+fieldset {
+    margin: 10px 0;
+}
+
+label {
+    margin-right: 5px;
+}
+
+.student-item span {
+    display: inline;
+}
+
+.student-list li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.student-item label {
+    font-weight: bold;
+}
+
+.group-inputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.error span {
+    color: red;
+}
+.error input {
+    border-color: red;
+}

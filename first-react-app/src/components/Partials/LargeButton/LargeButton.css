@@ -1,0 +1,28 @@
+
+.arrow-button {
+    color: #FEFEFE;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.155em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 21px;
+    background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+    box-shadow: 0px 20px 40px rgba(128, 143, 150, 0.19);
+    border-radius: 2px;
+}
+.arrow-button svg {
+    margin-left: 20px;
+} 
+
+.get-started {
+    max-width: 350px;
+}
+.send-message {
+    width: 100%;
+}
